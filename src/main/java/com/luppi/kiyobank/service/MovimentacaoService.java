@@ -107,7 +107,6 @@ public class MovimentacaoService {
             }
             String statusMessage = "PAGAMENTO CANCELADO";
             produtorService.enviarMensagem(statusMessage, statusPagamentoTopic);
-            return false;
         }
         return false;
     }
